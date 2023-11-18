@@ -462,10 +462,10 @@ TextureImporter:
       name: sheet_16
       rect:
         serializedVersion: 2
-        x: 756
-        y: 854
-        width: 108
-        height: 85
+        x: 844
+        y: 908
+        width: 11
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,8 +483,8 @@ TextureImporter:
       name: sheet_17
       rect:
         serializedVersion: 2
-        x: 864
-        y: 854
+        x: 862
+        y: 792
         width: 108
         height: 85
       alignment: 0
@@ -1722,8 +1722,8 @@ TextureImporter:
       name: sheet_76
       rect:
         serializedVersion: 2
-        x: 432
-        y: 259
+        x: 691
+        y: 477
         width: 108
         height: 85
       alignment: 0
@@ -2037,13 +2037,13 @@ TextureImporter:
       name: sheet_91
       rect:
         serializedVersion: 2
-        x: 216
-        y: 89
-        width: 108
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 225
+        y: 117
+        width: 96
+        height: 73
+      alignment: 9
+      pivot: {x: 0.47009516, y: 0.5000002}
+      border: {x: 0, y: 0, z: 3, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0

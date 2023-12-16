@@ -28,4 +28,10 @@ public class PlayerShooting : MonoBehaviour
             Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
         }
     }
+
+
+    void OnGUI()
+    {
+        GUI.Label(new Rect(0, 0, 100, 50), "Objetos restantes: " + GameObject.FindGameObjectsWithTag("Objects").Length);
+    }
 }

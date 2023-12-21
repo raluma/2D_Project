@@ -6,12 +6,6 @@ public class BulletMovement : MonoBehaviour
 {
     public float maxSpeed = 3.5f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

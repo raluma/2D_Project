@@ -12,9 +12,7 @@ public class DamageHandler : MonoBehaviour
 
         if (health <= 0)
         {
-            Debug.Log("Enemigo destruido!");
-            Destroy(gameObject);
-            
+            Destroy(gameObject);   
         }
     }
 }

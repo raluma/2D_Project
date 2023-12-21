@@ -25,7 +25,7 @@ public class PlayerShooting : MonoBehaviour
     {
         cooldownTimer -= Time.deltaTime;
 
-        if (cooldownTimer <= 0 && transform.position.y <= 10)
+        if (cooldownTimer <= 0 && transform.position.y <= 12)
         {
             cooldownTimer = fireDelay;
 
@@ -41,7 +41,7 @@ public class PlayerShooting : MonoBehaviour
 
         GUI.Label(new Rect(0, 0, 100, 50), "Puntos: " + points);
 
-        if (transform.position.y >= 10 && player.health > 0)
+        if ((GameObject.FindGameObjectsWithTag("Meteor").Length == 0 || transform.position.y >= 12) && player.health > 0)
         {
             GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 100, 50), "You win! \n Points: " + points);
         }

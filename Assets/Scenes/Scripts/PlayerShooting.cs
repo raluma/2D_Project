@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
-{
+{  
     public GameObject bulletPrefab;
+    public PlayerMovement player;
 
     public float fireDelay;
     public float cooldownTimer;
@@ -40,7 +41,7 @@ public class PlayerShooting : MonoBehaviour
 
         GUI.Label(new Rect(0, 0, 100, 50), "Puntos: " + points);
 
-        if (transform.position.y >= 10)
+        if (transform.position.y >= 10 && player.health > 0)
         {
             GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 100, 50), "You win! \n Points: " + points);
         }
